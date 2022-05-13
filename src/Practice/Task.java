@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class Task {
     public static void main(String[] args) {
         // Линейныe программы 1. Найти значение функции z = ( (a – 3 ) * b / 2) + c.
-    double a = 1;
-    double b = 2;
-    double z = ((a - 3) * b / 2);
+    double a = 1, b = 2.3, c = 4;
+    double z = ((a - 3) * b / 2) + c;
         System.out.println(z);
 
         // 2. Вычислить значение выражения по формуле
